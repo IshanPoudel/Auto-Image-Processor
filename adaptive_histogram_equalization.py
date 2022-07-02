@@ -1,7 +1,7 @@
 import cv2
 
-
-bgr = cv2.imread('assets/picture_one.jpeg')
+#get the png values in it
+bgr = cv2.imread('assets/picture_one.png')
 
 lab = cv2.cvtColor(bgr, cv2.COLOR_BGR2LAB)
 
